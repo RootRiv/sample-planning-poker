@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  sample-planning-poker-client:
+    build:
+      context: ./client
+    container_name: sample-planning-poker-client
+    ports:
+      - '80:80'
